@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+*{
+  padding: auto;
+  margin:auto
+}
+body{
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   */
+   /* color: rgb(55, 250, 41); */
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+   /* background: linear-gradient(90deg, rgb(5, 2, 43) 0%, rgb(161, 14, 139) 35%, rgb(10, 39, 183) 110%); */
+   background: linear-gradient(to bottom right, blue, pink,100%);
+   /* background: rgba(161, 57, 57, 0.5); */
+backdrop-filter: blur(5px);
+background-color: #eae0e0;
+  }
+  .button{
+    width: 160px;
+    height: 151px;
+    border-radius: 1130px;
+  }
+  .diva{
+    width: 644px;
+  }
+  .dd{
+    width: 764px;
+  }
+.div{
+  box-shadow: #262424ba 101px 41px 269px -13px;
+}
+.arrow:hover {
+  content: "⇾";
+  color: aquamarine;
+  width: auto;
+  font-size: 20px;
+  /* padding: auto; */
+  /* scale: 2; */
+  /* transition: ease-in; */
+}
+
+.h1order{
+  font-size: 30px;
+  
+}
+@media only screen and (max-width: 640px) {
+  .ltdiva  {
+    position: relative;
+    left: -71px;
+        /* padding: 23px; */
+        /* margin: 0px 8px; */
+    /* display:none; */
+    /* background-color: lightblue; */
+  }
+}
+@media only screen and (max-width: 687px) {
+.ll{
+  margin: 290px 163px;
+
+}
+}
+@media only screen and (max-width: 443px) {
+  .ll{
+    margin: 116px 117px;
+  
+  }
+  }
+
+
+@media only screen and (max-width: 768px) {
+  .ltdiv{
+    /* margin: 290px 163px; */
+    padding: 33px;
+  }
+  }
+/*  
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
