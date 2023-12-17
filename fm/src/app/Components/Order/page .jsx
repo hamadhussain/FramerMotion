@@ -1,12 +1,8 @@
 'use client'
-// components/Form.js
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { PageWrapper } from "../../wrapper";
-// const kk=()=>{
 
-  // setButton=true;
-// }
 const Order = () => {
   const [Button, setButton] = useState(false);
 
