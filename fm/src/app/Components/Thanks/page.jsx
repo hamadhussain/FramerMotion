@@ -3,7 +3,7 @@ import React from 'react'
 import Link from 'next/link'
 import { useState,useEffect } from 'react'
 import { motion } from 'framer-motion'
-const page = () => {
+const Page = () => {
   
   const [Let, setLet] = useState(false);
 
@@ -11,7 +11,7 @@ const page = () => {
     setTimeout(() => {
       setLet(true);
     }, 1000);
-  });
+  },[]); 
   
   
   return (
@@ -38,4 +38,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

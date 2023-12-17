@@ -6,7 +6,7 @@ import '../../globals.css'
 import Link from 'next/link';
 
 // import { PageWrapper } from "../../wrapper";
-const page = () => {
+const Page = () => {
     const [Button, setButton] = useState(false);
    const heartVariants = {
       
@@ -17,8 +17,8 @@ const page = () => {
           duration: 3,
           // how many times we want to repeat the animation
           yoyo: Infinity
-        }
-      }
+        },
+      },
     }; 
 
   
@@ -77,4 +77,4 @@ const page = () => {
     
   };
 
-export default page
+export default Page
